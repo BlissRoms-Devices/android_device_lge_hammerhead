@@ -18,7 +18,7 @@
 # $(call inherit-product, device/sample/products/backup_overlay.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/bliss/config/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/lge/hammerhead/full_hammerhead.mk)
@@ -28,11 +28,13 @@ TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_BOOTANIMATION_HALF_RES := true
 
-PRODUCT_NAME := lineage_hammerhead
+PRODUCT_NAME := bliss_hammerhead
 PRODUCT_DEVICE := hammerhead
 PRODUCT_BRAND := lge
 PRODUCT_MODEL := Nexus 5
 PRODUCT_MANUFACTURER := LGE
+BLISS_BUILDTYPE := OFFICIAL
+USE_CHROMIUM := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=hammerhead \
