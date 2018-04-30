@@ -2,7 +2,7 @@
  {
    "repository": "Unlegacy-Android/android_kernel_lge_hammerhead",
    "remote": "github",
-   "revision": "o8.1",
+   "revision": "stable",
    "target_path": "kernel/lge/hammerhead"
  },
  {
