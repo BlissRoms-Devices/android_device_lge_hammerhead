@@ -1,0 +1,32 @@
+[
+ {
+   "repository": "Unlegacy-Android/android_kernel_lge_hammerhead",
+   "remote": "github",
+   "revision": "o8.1",
+   "target_path": "kernel/lge/hammerhead"
+ },
+ {
+   "repository": "Unlegacy-Android/proprietary_vendor_lge",
+   "remote": "github",
+   "revision": "aosp-8.1",
+   "target_path": "vendor/lge"
+ },
+ {
+   "repository": "BlissRoms/platform_hardware_broadcom_wlan",
+   "remote": "github",
+   "revision": "o8.0",
+   "target_path": "hardware/broadcom/wlan"
+ },
+ {
+   "repository": "LineageOS/android_external_strace",
+   "remote": "github",
+   "revision": "staging/cm-14.0",
+   "target_path": "external/strace"
+ },
+ {
+   "repository": "Unlegacy-Android/proprietary_vendor_qcom",
+   "remote": "github",
+   "revision": "aosp-8.1",
+   "target_path": "vendor/qcom"
+ }
+]
