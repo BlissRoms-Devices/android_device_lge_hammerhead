@@ -3,13 +3,13 @@
    "remote": "github",
    "repository":  "Unlegacy-Android/android_kernel_lge_hammerhead",
    "target_path": "kernel/lge/hammerhead",
-   "branch": "stable"
+   "revision": "stable"
  },
  {
    "remote": "github",
    "repository": "BigTopKrazies/vendor_lge_hammerhead",
    "target_path": "vendor/lge/hammerhead",
-   "branch": "8.1"
+   "revision": "8.1"
  },
  {
    "repository": "BlissRoms/platform_hardware_broadcom_wlan",
